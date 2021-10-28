@@ -13,7 +13,7 @@ export default function Weather(props) {
 
   return (
     <div className="Weather">
-      <h1>I'm the weather app</h1>
+      <h1>This is the weather app</h1>
       <p>Hello</p>
     </div>
   );
