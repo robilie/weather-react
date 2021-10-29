@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import Loader from "react-loader-spinner";
 
 export default function Weather(props) {
   function showTemperature(response) {
@@ -15,6 +16,7 @@ export default function Weather(props) {
     <div className="Weather">
       <h1>This is the weather app</h1>
       <p>Hello</p>
+      <Loader type="Puff" color="#00BFFF" height={100} width={100} />
     </div>
   );
 }
